@@ -78,12 +78,31 @@ img {
   border-radius: 20px;
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
-  /*btn*/
 }
 
 .btn_simple:hover {
   background-color: #722ED1;
   color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid #722ED1;
+  background-color: #722ED1;
+  font-weight: 500;
+  padding: 10px 33px;
+  text-decoration: none;
+  border-radius: 20px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  /*&:hover
+		background-color: $accent
+		color: #fff*/
+}
+
+.btn_white {
+  margin-left: 16px;
+  /*btn*/
 }
 
 #header {
@@ -142,5 +161,64 @@ img {
 
 #header .right_side_header .mnu_top > li > a:hover {
   color: #722ED1;
+}
+
+#top_banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#top_banner .notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F9F0FF;
+  border-radius: 20px;
+  padding: 9px 38px;
+  width: 300px;
+}
+
+#top_banner .notification img {
+  width: 16px;
+  height: auto;
+  margin-right: 7px;
+}
+
+#top_banner .notification p {
+  color: #722ED1;
+}
+
+#top_banner .notification a {
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  text-decoration: none;
+  border-bottom: 1px solid #722ED1;
+  color: #722ED1;
+}
+
+#top_banner .notification a:hover {
+  color: #fff;
+  background-color: #5b25a7;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.main_banner {
+  padding: 150px 0;
+}
+
+.main_banner .mb_info > h1 {
+  font-weight: 700;
+  font-style: 48px;
+  color: #160637;
+}
+
+.main_banner .mb_info > .descrip {
+  color: #8989A2;
+  margin: 14px 0 44px;
 }
 /*# sourceMappingURL=main.css.map */
