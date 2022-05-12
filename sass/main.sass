@@ -67,20 +67,26 @@ img
 	&:hover
 		background-color: $accent
 		color: #fff
+
 .btn
 	color: #fff
-	border: 1px solid $accent
 	background-color: $accent
-	font-weight: 500
-	padding: 10px 33px
+	padding: 14px 40px
 	text-decoration: none
-	border-radius: 20px
-	transition: all .4s ease
-	/*&:hover
-		background-color: $accent
-		color: #fff*/
-.btn_white
-	margin-left: 16px
+	border-radius: 24px
+	transition: all .7s ease
+	box-shadow: 0 3px 6px rgba(0,0, 0, 0.16 )
+	&:hover
+		background-color: #fff
+		color: #111
+	&.btn_white
+		background-color: #fff
+		color: #111
+		&:hover
+			color: #fff
+			background-color: $accent
+
+			
  /*btn*/
 
 #header
@@ -143,15 +149,23 @@ img
 				padding: 5px
 
 .main_banner
-	padding: 150px 0 
+	padding: 240px 0 380px 
 	.mb_info
 		>h1
-			font-weight: 700
-			font-style: 48px
+			font-weight: 900
+			font-size: 48px
 			color: #160637
+			max-width: 416px
+			line-height: 1.1
+			margin-top: 10px
 		>.descrip
+			font-size: 16px
 			color: #8989A2
 			margin: 14px 0 44px
-
-
+		>.btns
+			display: flex
+			align-items: center
+			.btn_white
+				margin-left: 16px
+	
  

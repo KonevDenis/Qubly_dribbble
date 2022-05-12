@@ -87,22 +87,30 @@ img {
 
 .btn {
   color: #fff;
-  border: 1px solid #722ED1;
   background-color: #722ED1;
-  font-weight: 500;
-  padding: 10px 33px;
+  padding: 14px 40px;
   text-decoration: none;
-  border-radius: 20px;
-  -webkit-transition: all .4s ease;
-  transition: all .4s ease;
-  /*&:hover
-		background-color: $accent
-		color: #fff*/
+  border-radius: 24px;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  /*btn*/
 }
 
-.btn_white {
-  margin-left: 16px;
-  /*btn*/
+.btn:hover {
+  background-color: #fff;
+  color: #111;
+}
+
+.btn.btn_white {
+  background-color: #fff;
+  color: #111;
+}
+
+.btn.btn_white:hover {
+  color: #fff;
+  background-color: #722ED1;
 }
 
 #header {
@@ -208,17 +216,34 @@ img {
 }
 
 .main_banner {
-  padding: 150px 0;
+  padding: 240px 0 380px;
 }
 
 .main_banner .mb_info > h1 {
-  font-weight: 700;
-  font-style: 48px;
+  font-weight: 900;
+  font-size: 48px;
   color: #160637;
+  max-width: 416px;
+  line-height: 1.1;
+  margin-top: 10px;
 }
 
 .main_banner .mb_info > .descrip {
+  font-size: 16px;
   color: #8989A2;
   margin: 14px 0 44px;
+}
+
+.main_banner .mb_info > .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_banner .mb_info > .btns .btn_white {
+  margin-left: 16px;
 }
 /*# sourceMappingURL=main.css.map */
