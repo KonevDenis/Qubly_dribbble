@@ -108,17 +108,59 @@ img
 			list-style-type: none //чтобы убрать точечки у списка
 			>li
 				display: inline-block
-				margin-right: 40px
-				>a
+				position: relative
+				a
 					display: block
 					text-decoration: none 
 					font-style: 14px
+					padding-right: 40px
 					font-weight: 500
 					color: #000
-					transition: color .4s easy
+					transition: color .4s ease
 					&:hover
 						color: $accent
+				>.sub_menu
+						position: absolute
+						top: 30px
+						background-color: #fff
+						box-shadow: 0 3px 6px rgba(0, 0, 0, .16)
+						z-index: 10
+						border-radius: 10px
+						animation: 0.6s opac
+						display: none
+						>li
+							display: block
+							>a
+								padding: 3px 10px
+								font-size: 14px
+								font-weight: 400
+								&:hover
+									color: #2048c4
+				&.has_sub_menu
+					&:hover >.sub_menu
+						display: block
+					&::after
+						content: ''
+						width: 8px
+						height: 4px
+						background-image: url('/img/strelka.svg')
+						background-size: cover
+						background-repeat: no-repeat
+						background-position: center
+						position: absolute
+						top: 12px
+						right: 20px
+@keyframes opac
+	from
+		opacity: 0		
+	to
+		opacity: 1		
+				
 
+
+					
+						
+					
 #top_banner
 	background-size: cover
 	background-repeat: no-repeat
