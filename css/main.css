@@ -309,4 +309,66 @@ img {
 .main_banner .mb_info > .btns .btn_white {
   margin-left: 16px;
 }
+
+#advent .notification {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F9F0FF;
+  border-radius: 20px;
+  padding: 9px 38px;
+  width: 190px;
+  margin-bottom: 32px;
+}
+
+#advent .notification img {
+  width: 25px;
+  height: auto;
+  margin-right: 7px;
+}
+
+#advent h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 480px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 13px;
+}
+
+#advent .descrip {
+  font-size: 16px;
+  color: #8989A2;
+  margin: 0 auto;
+  max-width: 504px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 48px;
+}
+
+#advent .heading {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 13px;
+  margin-top: 24px;
+}
+
+#advent .descr {
+  font-size: 16px;
+  color: #8989A2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 232px;
+}
 /*# sourceMappingURL=main.css.map */
